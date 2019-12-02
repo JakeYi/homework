@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// body {
+//     position: relative;
+// }
+
+header {
+    .title {
+        height: 40px;
+        width: 100%;
+        background-color: red;
+        font-size: 24px;
+        color: white;
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .subtitle {
+        li {
+            display: inline-block;
+            width: 20%;
+            height: 30px;
+            color: #111;
+            font-size: 20px;
+            // background-color: antiquewhite;
+            text-align: center;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+}
+
+.main {
+    // background-color: #ccc;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+
+    .line_level {
+        height: 5px;
+        width: 300px;
+        background-color: #00f;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .line_verticle {
+        height: 300px;
+        width: 5px;
+        background-color: #00f;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .sweet {
+        background: url('../imge/sweet.png') center center no-repeat;
+        background-size: cover;
+        background-color: #f0f;
+        // border-right: 1px solid #000;
+    }
+
+    .video {
+        background: url('../imge/video.png') center center no-repeat;
+        background-size: cover;
+        background-color: #0f0;
+    }
+
+    .website {
+        background: url('../imge/web.png') center center no-repeat;
+        background-size: cover;
+        background-color: #00f;
+    }
+
+    .taobao {
+        background: url('../imge/taobao.png') center center no-repeat;
+        background-size: cover;
+        background-color: #ff0;
+    }
+
+    .logo {
+        height: 130px;
+        width: 130px;
+        display: inline-block;
+        margin: 20px;
+
+        a {
+            height: 100%;
+            width: 100%;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+    }
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #aaa;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+
+    .adress {
+        margin-top: 10px;
+    }
+}
