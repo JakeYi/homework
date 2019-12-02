@@ -11,7 +11,7 @@ header {
     .title {
         height: 40px;
         width: 100%;
-        background-color: red;
+        background-color: #87CEEB;
         font-size: 24px;
         color: white;
         font-family: Helvetica, sans-serif;
@@ -28,7 +28,7 @@ header {
             // background-color: antiquewhite;
             text-align: center;
             padding: 5px;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid #87CEEB;
         }
     }
 }
@@ -42,7 +42,7 @@ header {
     .line_level {
         height: 5px;
         width: 300px;
-        background-color: #00f;
+        background-color: #87CEEB;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -52,7 +52,7 @@ header {
     .line_verticle {
         height: 300px;
         width: 5px;
-        background-color: #00f;
+        background-color: #87CEEB;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -62,26 +62,26 @@ header {
     .sweet {
         background: url('../imge/sweet.png') center center no-repeat;
         background-size: cover;
-        background-color: #f0f;
+        // background-color: #f0f;
         // border-right: 1px solid #000;
     }
 
     .video {
         background: url('../imge/video.png') center center no-repeat;
         background-size: cover;
-        background-color: #0f0;
+        // background-color: #0f0;
     }
 
     .website {
         background: url('../imge/web.png') center center no-repeat;
         background-size: cover;
-        background-color: #00f;
+        // background-color: #00f;
     }
 
     .taobao {
         background: url('../imge/taobao.png') center center no-repeat;
         background-size: cover;
-        background-color: #ff0;
+        // background-color: #ff0;
     }
 
     .logo {

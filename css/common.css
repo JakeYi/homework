@@ -6,7 +6,7 @@
 header .title {
   height: 40px;
   width: 100%;
-  background-color: red;
+  background-color: #87CEEB;
   font-size: 24px;
   color: white;
   font-family: Helvetica, sans-serif;
@@ -21,7 +21,7 @@ header .subtitle li {
   font-size: 20px;
   text-align: center;
   padding: 5px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #87CEEB;
 }
 
 .main {
@@ -33,7 +33,7 @@ header .subtitle li {
 .main .line_level {
   height: 5px;
   width: 300px;
-  background-color: #00f;
+  background-color: #87CEEB;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,7 +44,7 @@ header .subtitle li {
 .main .line_verticle {
   height: 300px;
   width: 5px;
-  background-color: #00f;
+  background-color: #87CEEB;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -55,25 +55,21 @@ header .subtitle li {
 .main .sweet {
   background: url("../imge/sweet.png") center center no-repeat;
   background-size: cover;
-  background-color: #f0f;
 }
 
 .main .video {
   background: url("../imge/video.png") center center no-repeat;
   background-size: cover;
-  background-color: #0f0;
 }
 
 .main .website {
   background: url("../imge/web.png") center center no-repeat;
   background-size: cover;
-  background-color: #00f;
 }
 
 .main .taobao {
   background: url("../imge/taobao.png") center center no-repeat;
   background-size: cover;
-  background-color: #ff0;
 }
 
 .main .logo {
